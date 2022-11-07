@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
     <link href="css/checkoutform.css" rel="stylesheet" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Bootstrap core CSS -->
 <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -32,8 +33,9 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
-  </head>     
+  </head> 
   <body class="bg-light">
+   <a class="btn btn-primary btn-lg btn-block" type="submit" href="http://localhost/lab/cart.php" style="width: 200px; height: 50px;  position: fixed; top: 20px; right: 20px;display: flex;" ><i class="bi bi-arrow-return-left"> Back to cart</i></a>
     <div class="container">
   <div class="py-5 text-center">
     <img class="d-block mx-auto mb-4" src="assets/logo.jpg" alt="" width="200" height="200">
@@ -125,6 +127,8 @@
         
     </div>
 </center>
+  
+
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
